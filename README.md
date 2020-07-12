@@ -1,14 +1,14 @@
 Vending Machine C++
 ====================
 
-This is a C++ virtual vending machine program allowing clients to select an item from a vending machine. 
-Changes are returned to the client and the employee if the coins inserted is more than the remaining price.
+This is a vending machine simulator developed in C++. The program allows clients to purchase from a wide selection of items, remaining changes are returned to the client.
 
-The vending machines allows for elevated actions performed by a technician with NFC authentication check. 
+The vending machines allow elevated actions performed by a technician upon NFC verification. 
 
-A technician can reset the vending machine to its initial state, activate and deactivate the distributor mechanism.
+A technician can reset the vending machine to its initial state, activate and deactivate the distributor mechanism. 
+A technician can also output data from the vending machine including money in, money out, distributor state, and quantity of the item sold.
 
-Upon NFC verification an employee can select a coffee for free.
+An authenticated employee may select a free coffee.
 
 Technician NFC:
 - SZR547HTXG
